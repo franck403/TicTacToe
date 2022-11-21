@@ -207,8 +207,8 @@ function Board (options){
 
     function htmlQ1(){
       return `<div id="view1"><h3>Which do you prefer?\n</h3>
-      ${buttonHTML(1, "1player", "Man Against computer")}
-      ${buttonHTML(1, "2players", "Man Against Man")}
+      ${buttonHTML(1, "1player", "Humain vs Computer")}
+      ${buttonHTML(1, "2players", "Humain vs Humain")}
       </div>`
     }
 
